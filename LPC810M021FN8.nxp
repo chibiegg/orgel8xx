@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MCUDesign>
+    <Chip>LPC810M021FN8</Chip>
+    <Peripheral Name="GPIO0">
+        <Signals BallNumber="4" Signal="PIO0_1"/>
+        <Signals BallNumber="1" Signal="PIO0_4"/>
+    </Peripheral>
+    <Peripheral Name="SCT">
+        <Signals BallNumber="7" Signal="CTOUT_0"/>
+    </Peripheral>
+    <Peripheral Name="SYSTEM">
+        <Signals BallNumber="0" Signal="RESET"/>
+        <Signals BallNumber="2" Signal="SWCLK"/>
+        <Signals BallNumber="3" Signal="SWDIO"/>
+    </Peripheral>
+    <LPCIOCON Name="PIO0_5">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_4">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_3">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_2">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_1">
+        <Type Name="MODE" Para="  Inactive"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+    <LPCIOCON Name="PIO0_0">
+        <Type Name="MODE" Para="  Pull_up_resistor"/>
+        <Type Name="HYS" Para="  Disable"/>
+        <Type Name="INV" Para="  Disable"/>
+        <Type Name="OD" Para="  Disable"/>
+        <Type Name="S_MODE" Para="  Bypass_input_filter"/>
+        <Type Name="CLK_DIV" Para="  CLKDIV0"/>
+    </LPCIOCON>
+</MCUDesign>

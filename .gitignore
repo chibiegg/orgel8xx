@@ -1,3 +1,10 @@
+
+Debug
+Release
+
+*.launch
+
+
 *.py[cod]
 
 # C extensions
